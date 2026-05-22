@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    margin: 0;      
+    padding: 0;
+    outline: 0; 
+    box-sizing: border-box;        
+}
+
+// VARIABLES for font
+$font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+$bg-light:    #f9f9f9;
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $font-sans;
+    background: $bg-light;
+    margin:0;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    padding-top: 90px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
